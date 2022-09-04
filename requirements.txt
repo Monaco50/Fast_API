@@ -2,7 +2,6 @@
 fastapi
 uvicorn
 pydantic
-pickle
 asyncio
 requests
 pandas
