@@ -1,0 +1,11 @@
+# requirements.txt
+fastapi
+uvicorn
+pydantic
+pickle
+asyncio
+requests
+pandas
+numpy
+scikit-learn==0.23.1
+lightgbm
