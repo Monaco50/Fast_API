@@ -12,7 +12,6 @@ from lightgbm import LGBMClassifier
 from sklearn.metrics import roc_auc_score, average_precision_score, \
     fbeta_score, make_scorer
 from pydantic import BaseModel
-import joblib
 from models_core_Marwa import *
 
 
