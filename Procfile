@@ -1,1 +1,1 @@
-web: unicorn main:api --log-file -
+web: python api/main.py runserver 0.0.0.0:5000
