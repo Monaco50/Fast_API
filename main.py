@@ -24,7 +24,7 @@ api = FastAPI(
 model = Predict()
 
 
-@api.get("/Marwa")
+@api.get("/")
 async def current_user():
     result = {
             'status' : 'success',
