@@ -17,6 +17,6 @@ class Predict:
         prediction = lgbm_model.predict(X_test) #prediction
      
         output = pd.DataFrame({'prediction': prediction[:10],  'probability': probability[:10]})
-            print(output)
-            return output.to_dict(orient = 'records')
-        Predict.predict()
+        print(output)
+        return output.to_dict(orient = 'records')
+Predict.predict()
